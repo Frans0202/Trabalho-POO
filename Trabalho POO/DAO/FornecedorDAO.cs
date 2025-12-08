@@ -22,6 +22,32 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Fornecedor GetById(int id)
+        {
+            string sql = "SELECT * FROM Fornecedor WHERE Id_fornecedor = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Fornecedor
+                        {
+                            Id_fornecedor = dr.GetInt32("Id_fornecedor"),
+                            NomeFornecedor = dr.GetString("nomeFornecedor"),
+                            Telefone = dr.GetString("telefone"),
+                            fk_Id_endereco = dr.GetInt32("fk_Id_endereco")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
         public void Update(Fornecedor f)
         {
             string sql = @"UPDATE Fornecedor SET nomeFornecedor=@nome, telefone=@tel, 

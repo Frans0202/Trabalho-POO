@@ -20,6 +20,30 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Estoque GetById(int id)
+        {
+            string sql = "SELECT * FROM Estoque WHERE Id_estoque = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Estoque
+                        {
+                            Id_estoque = dr.GetInt32("Id_estoque"),
+                            QuantidadeAtual = dr.GetInt32("quantidadeAtual")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
         public void Update(Estoque e)
         {
             string sql = @"UPDATE Estoque SET quantidadeAtual=@qtd

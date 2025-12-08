@@ -27,6 +27,34 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Cliente GetById(int id)
+        {
+            string sql = "SELECT * FROM Cliente WHERE Id_cliente = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Cliente
+                        {
+                            Id_cliente = dr.GetInt32("Id_cliente"),
+                            Nome = dr.GetString("nome"),
+                            Email = dr.GetString("email"),
+                            Telefone = dr.GetString("telefone"),
+                            fk_Id_endereco = dr.GetInt32("fk_Id_endereco"),
+                            fk_Id_genero = dr.GetInt32("fk_Id_genero")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
         public void Update(Cliente c)
         {
             string sql = @"UPDATE Cliente SET nome=@n, email=@e, telefone=@t,

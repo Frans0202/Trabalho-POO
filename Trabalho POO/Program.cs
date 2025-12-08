@@ -1,2 +1,6 @@
-﻿// Teste criação do trabalho para o primeiro commit
+﻿
+using Trabalho_POO;
+
+
+new Menu();
 

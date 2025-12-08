@@ -39,6 +39,43 @@ namespace Mercado.DAO
             }
         }
 
+        public Produto GetById(int id)
+        {
+            string sql = "SELECT * FROM Produto WHERE Id_produto = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Produto
+                        {
+                            Id_produto = dr.GetInt32("Id_produto"),
+                            Sessao = dr.GetString("sessao"),
+                            ValorUnitario = dr.GetDecimal("valorUnitario"),
+                            Marca = dr.GetString("marca"),
+                            Descricao = dr.GetString("descricao"),
+                            fk_Id_categoria = dr.GetInt32("fk_Id_categoria"),
+                            fk_Id_desconto = dr.IsDBNull(dr.GetOrdinal("fk_Id_desconto"))
+                                                ? null
+                                                : dr.GetInt32("fk_Id_desconto"),
+                            fk_Id_estoque = dr.GetInt32("fk_Id_estoque"),
+                            fk_Id_fornecedor = dr.GetInt32("fk_Id_fornecedor"),
+                            fk_Id_venda = dr.IsDBNull(dr.GetOrdinal("fk_Id_venda"))
+                                                ? null
+                                                : dr.GetInt32("fk_Id_venda")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
+
         public void Update(Produto produto)
         {
             try

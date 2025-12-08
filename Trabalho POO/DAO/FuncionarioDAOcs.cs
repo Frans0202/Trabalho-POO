@@ -29,6 +29,36 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Funcionario GetById(int id)
+        {
+            string sql = "SELECT * FROM Funcionario WHERE Id_funcionario = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Funcionario
+                        {
+                            Id_funcionario = dr.GetInt32("Id_funcionario"),
+                            Nome = dr.GetString("nome"),
+                            Cpf = dr.GetString("cpf"),
+                            Telefone = dr.GetString("telefone"),
+                            Email = dr.GetString("email"),
+                            DataNascimento = dr.GetDateTime("dataNascimento"),
+                            fk_Id_endereco = dr.GetInt32("fk_Id_endereco"),
+                            fk_Id_genero = dr.GetInt32("fk_Id_genero")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
         public void Update(Funcionario f)
         {
             string sql = @"UPDATE Funcionario SET 

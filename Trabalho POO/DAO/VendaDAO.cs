@@ -25,6 +25,34 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Venda GetById(int id)
+        {
+            string sql = "SELECT * FROM Venda WHERE Id_venda = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Venda
+                        {
+                            Id_venda = dr.GetInt32("Id_venda"),
+                            ValorTotal = dr.GetDecimal("valorTotal"),
+                            Quantidade = dr.GetInt32("quantidade"),
+                            fk_Id_cliente = dr.GetInt32("fk_Id_cliente"),
+                            fk_Id_funcionario = dr.GetInt32("fk_Id_funcionario")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
+
         public void Update(Venda v)
         {
             string sql = @"UPDATE Venda SET valorTotal=@vt, quantidade=@qtd, 

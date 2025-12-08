@@ -23,6 +23,33 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Endereco GetById(int id)
+        {
+            string sql = "SELECT * FROM Endereco WHERE Id_endereco = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Endereco
+                        {
+                            Id_endereco = dr.GetInt32("Id_endereco"),
+                            Bairro = dr.GetString("bairro"),
+                            Rua = dr.GetString("rua"),
+                            Numero = dr.GetString("numero"),
+                            Cep = dr.GetString("cep")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
         public void Update(Endereco e)
         {
             string sql = @"UPDATE Endereco 

@@ -3,20 +3,64 @@
   "WorkspaceRootPath": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\categoriadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\categoriadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\clientedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\descontodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\descontodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\utilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\utilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\produtodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\vendadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\vendadao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\generodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\generodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\funcionariodaocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\funcionariodaocs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\fornecedordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\fornecedordao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\estoquedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\dao\\enderecodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\dao\\enderecodao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\interfaces\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\interfaces\\idao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\utilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\utilitarios\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|c:\\users\\odisseu\\desktop\\poo\\trabalho poo\\trabalho poo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60C3E5E3-7888-4DC1-B67E-A37B245345D3}|Trabalho POO\\Trabalho POO.csproj|solutionrelative:trabalho poo\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +70,199 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Interfaces\\IDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\Interfaces\\IDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Interfaces\\IDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\Interfaces\\IDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:54:27.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProdutoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\ProdutoDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\ProdutoDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\ProdutoDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\ProdutoDAO.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAswLcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:53:19.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VendaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\VendaDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\VendaDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\VendaDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\VendaDAO.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:53:11.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FuncionarioDAOcs.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\FuncionarioDAOcs.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\FuncionarioDAOcs.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\FuncionarioDAOcs.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\FuncionarioDAOcs.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAswDwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:52:31.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClienteDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\ClienteDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\ClienteDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\ClienteDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\ClienteDAO.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:52:21.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FornecedorDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\FornecedorDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\FornecedorDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\FornecedorDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\FornecedorDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:52:13.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GeneroDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\GeneroDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\GeneroDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\GeneroDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\GeneroDAO.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA9wC0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:51:58.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnderecoDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\EnderecoDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\EnderecoDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\EnderecoDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\EnderecoDAO.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:51:47.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Menu.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\Menu.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Menu.cs",
+              "RelativeToolTip": "Trabalho POO\\Menu.cs",
+              "ViewState": "AgIAABsBAAAAAAAAAAAjwCoBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:25:43.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriaDAO.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\CategoriaDAO.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\DAO\\CategoriaDAO.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\CategoriaDAO.cs",
+              "RelativeToolTip": "Trabalho POO\\DAO\\CategoriaDAO.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAswGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:09:00.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Trabalho POO\\Models\\Produto.cs",
+              "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Models\\Produto.cs",
+              "RelativeToolTip": "Trabalho POO\\Models\\Produto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-08T01:04:09.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "EstoqueDAO.cs",
               "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\EstoqueDAO.cs",
               "RelativeDocumentMoniker": "Trabalho POO\\DAO\\EstoqueDAO.cs",
               "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\EstoqueDAO.cs",
               "RelativeToolTip": "Trabalho POO\\DAO\\EstoqueDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswC0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T00:56:31.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "DescontoDAO.cs",
               "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\DescontoDAO.cs",
               "RelativeDocumentMoniker": "Trabalho POO\\DAO\\DescontoDAO.cs",
               "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\DAO\\DescontoDAO.cs",
               "RelativeToolTip": "Trabalho POO\\DAO\\DescontoDAO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowDEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-08T00:56:30.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "Conexao.cs",
               "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Utilitarios\\Conexao.cs",
               "RelativeDocumentMoniker": "Trabalho POO\\Utilitarios\\Conexao.cs",
               "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Utilitarios\\Conexao.cs",
               "RelativeToolTip": "Trabalho POO\\Utilitarios\\Conexao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAsAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T20:30:10.683Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Program.cs",
               "RelativeDocumentMoniker": "Trabalho POO\\Program.cs",
               "ToolTip": "C:\\Users\\Odisseu\\Desktop\\POO\\Trabalho POO\\Trabalho POO\\Program.cs",
               "RelativeToolTip": "Trabalho POO\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-07T19:41:18.041Z",
               "EditorCaption": ""

@@ -20,6 +20,30 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Genero GetById(int id)
+        {
+            string sql = "SELECT * FROM Genero WHERE Id_genero = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Genero
+                        {
+                            Id_genero = dr.GetInt32("Id_genero"),
+                            Tipo = dr.GetString("tipo")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
         public void Update(Genero g)
         {
             string sql = @"UPDATE Genero SET tipo=@t 

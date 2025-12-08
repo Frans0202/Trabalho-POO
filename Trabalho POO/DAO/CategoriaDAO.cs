@@ -19,6 +19,31 @@ namespace ConexaoBancodeDados.DAO
             }
         }
 
+        public Categoria GetById(int id)
+        {
+            string sql = "SELECT * FROM Categoria WHERE Id_categoria = @id";
+
+            using (var conn = Conexao.Conectar())
+            using (var cmd = new MySqlCommand(sql, conn))
+            {
+                cmd.Parameters.AddWithValue("@id", id);
+
+                using (var dr = cmd.ExecuteReader())
+                {
+                    if (dr.Read())
+                    {
+                        return new Categoria
+                        {
+                            Id_categoria = dr.GetInt32("Id_categoria"),
+                            Tipo = dr.GetString("tipo")
+                        };
+                    }
+                }
+            }
+
+            return null;
+        }
+
         public void Update(Categoria c)
         {
             string sql = "UPDATE Categoria SET tipo=@tipo WHERE Id_categoria=@id";
